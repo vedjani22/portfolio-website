@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    color: white;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* CARD DESIGN */
+.card {
+    background: white;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    
+    /* modern shadow */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+    /* smooth hover effect */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #1e293b;
+}
+
+/* SKILLS TAGS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: linear-gradient(135deg, #e0e7ff, #c7d2fe);
+    color: #3730a3;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+}
+
+.skills span:hover {
+    transform: scale(1.05);
+}
+
+/* LINKS */
+a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #1e293b;
+    color: white;
+    font-size: 14px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .card {
+        margin: 15px;
+        padding: 20px;
+    }
+}
